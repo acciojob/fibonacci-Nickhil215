@@ -1,8 +1,10 @@
 function fibonacci(num) {
 	let num1=0;
 	let num2=1;
-	let sum;
-	for(let i=0;i<num;i++){
+	var sum;
+    let i;
+	for(i=2;i<num;i++){
+    
 		sum=num1+num2;
 		
 		num1=num2;
